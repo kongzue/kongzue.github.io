@@ -40,30 +40,28 @@
 <pre class="hljs php"><code class="php">dependencies {
     implementation fileTree(<span class="hljs-keyword">include</span>: [<span class="hljs-string">'*.jar'</span>], dir: <span class="hljs-string">'libs'</span>)
 <span class="hljs-comment">//对话框</span>
-    implementation <span class="hljs-string">'com.kongzue.dialog:dialog:2.3.9'</span>
+    implementation <span class="hljs-string">'com.kongzue.dialog:dialog:2.4.2'</span>
 <span class="hljs-comment">//基础框架</span>
-    implementation <span class="hljs-string">'com.kongzue.baseframework:baseframework:6.5.8'</span>
-<span class="hljs-comment">//是否需要更新组件及模块：</span>
+    implementation <span class="hljs-string">'com.kongzue.baseframework:baseframework:6.6.0'</span>
+<span class="hljs-comment">//更新组件及模块</span>
     implementation <span class="hljs-string">'com.kongzue.kongzueupdatesdk:kongzueupdatesdk:1.4.1'</span>
-<span class="hljs-comment">//是否需要选择图片、拍照的功能：</span>
+<span class="hljs-comment">//选择图片、拍照的功能</span>
     implementation <span class="hljs-string">'com.kongzue.takephoto:takephoto:2.0.8'</span>
-<span class="hljs-comment">//若是需要上传功能</span>
-    implementation <span class="hljs-string">'com.kongzue.baseokhttp:baseokhttp:2.1.6'</span>
-<span class="hljs-comment">//若是需要底部导航栏</span>
+<span class="hljs-comment">//网络请求框架</span>
+    implementation 'com.kongzue.baseokhttp_v3:baseokhttp_v3:3.0.3'
+<span class="hljs-comment">//底部导航栏</span>
     implementation <span class="hljs-string">'com.kongzue.tabbar:tabbar:1.5.2'</span>
-<span class="hljs-comment">//若是需要顶部标题栏+沉浸式适配方案2</span>
+<span class="hljs-comment">//顶部标题栏+沉浸式适配方案2</span>
     implementation <span class="hljs-string">'com.kongzue.titlebar:titlebar:1.2'</span>
-<span class="hljs-comment">//若是需要数据库</span>
+<span class="hljs-comment">//数据库</span>
     implementation <span class="hljs-string">'com.kongzue.kongzuedb:kongzuedb:1.0.1'</span>
-<span class="hljs-comment">//简单的图片加载：</span>
+<span class="hljs-comment">//图片加载</span>
     implementation <span class="hljs-string">'com.facebook.fresco:fresco:0.12.0'</span>
-<span class="hljs-comment">//是否需要视频播放：</span>
+<span class="hljs-comment">//视频播放</span>
     implementation <span class="hljs-string">'com.shuyu:GSYVideoPlayer:4.1.2'</span>
-<span class="hljs-comment">//根据需求是否需要侧滑返回：</span>
-    implementation <span class="hljs-string">'me.majiajie:swipe-back:1.0.0-alpha2'</span>
-<span class="hljs-comment">//是否需要轮播图：</span>
+<span class="hljs-comment">//轮播图</span>
     implementation <span class="hljs-string">'com.youth.banner:banner:1.4.10'</span>
-<span class="hljs-comment">//是否需要扫码：</span>
+<span class="hljs-comment">//扫码</span>
     implementation <span class="hljs-string">'com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.3'</span>
 <span class="hljs-comment">//是否需要内部浏览器，需要的话X5内核：</span>
     implementation files(<span class="hljs-string">'libs/tbs_sdk_thirdapp_v3.2.0.1104_43200_sharewithdownload_withfilereader_withoutGame_obfs_20170609_115346.jar'</span>)
